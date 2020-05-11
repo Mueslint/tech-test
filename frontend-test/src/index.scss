@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: "source-sans-pro";
+}
+
+@font-face {
+  font-family: "oswald";
+  src: local("owsald"), url(./fonts/Oswald-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "source-sans-pro";
+  src: local("source-sans-pro"),
+    url(./fonts/SourceSansPro-Regular.ttf) format("truetype");
+}
+
+$primary: rgb(18, 165, 237);
+$family-primary: "source-sans-pro";
+$label-color: #0a3758;
+$tag-radius: 1px;
+
+@import "../node_modules/bulma/bulma.sass";
