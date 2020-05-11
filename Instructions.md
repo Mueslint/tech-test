@@ -1,4 +1,4 @@
-# Streamroot's technical test
+# Dataviz's technical test
 
 ## Email address
 
